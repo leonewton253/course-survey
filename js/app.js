@@ -11,12 +11,12 @@ $(document).ready(function() {
 
 
   $("#results").click(function(){
-    var total=0;
+    var score=0;
     $("input[type=radio]:checked").each(function(){
-        total+= parseInt($(this).attr("value"));
+        score+= parseInt($(this).attr("value"));
     });
 
-    alert(total);
+    alert(score);
 
 
       $("#story").show();
