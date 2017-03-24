@@ -1,3 +1,6 @@
+
+// "Hides first paragraph and then shows 2nd intro paragraph when next is clicked"
+
 $(document).ready(function() {
   $("#intronext").click(function() {
     $("#intro").hide();
@@ -9,6 +12,8 @@ $(document).ready(function() {
     $(".survey").show();
   });
 
+
+// "alerts user with suggested track based on score"
 
   $("#results").click(function(){
     var score=0;
@@ -25,7 +30,7 @@ $(document).ready(function() {
 
 
 
-// "Hide survey questions and show results message as a paragraph"
+// "Hide survey questions and show results message as a paragraph instead of alert"
 
 
   // $("#results").click(function(){
