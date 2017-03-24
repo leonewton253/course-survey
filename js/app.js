@@ -14,7 +14,7 @@ $(document).ready(function() {
     var score=0;
     $("input[type=radio]:checked").each(function(){
         score+= parseInt($(this).attr("value"));
-        if (score < 20) {
+        if (score < 10) {
           alert("We suggest you look into the Ruby on Rails or CSS/Design tracks!");
         } else if (score > 300) {
           alert("We suggest you look into the Csharp and DotNet tracks!");
