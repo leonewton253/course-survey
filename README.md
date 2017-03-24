@@ -1,4 +1,4 @@
-_Course Tracker_
+_Course Survey_
 
 _**by Terry Urich**_
 
