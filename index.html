@@ -14,74 +14,54 @@
         <p>This survey is intended to inform you as a student or prospective student of epicodus what course of study would suite your particular needs as an apiring developer. It should be taken with a grain of salt and used only to teach you about particular apsepcts of each programming language or framework. Enjoy! </p>
         <button id="intronext" type="button" >Next</button>
       </div>
-      <div id="intro2" class="survey">
+      <div id="intro2">
         <p> All students must complete an Intro to Programming and adventually a Javascript course. The content in each intro course is universal to all developer jobs.Javascript, HTML and CSS are the core of every website and some phone applications.</p>
-        <button type="button">Next</button>
+        <button id="startsurvey" type="button">Next</button>
       </div>
+      <div>
 
         <div class="survey">
-          <p>When using Youtube do you prefer to use the mobile app or your Web browser on a PC or tablet? (Ignore the size and resolution differences)</p>
-          <div class="radio">
-           <label><input type="radio" name="opta">Web Browser</label>
-          </div>
-          <div class="radio">
-           <label><input type="radio" name="optb">Mobile app</label>
-          </div>
+          <h2>When using Youtube do you prefer to use the mobile app or your Web browser on a PC or tablet? (Ignore the size and resolution differences)</h2>
+          <div class="radio"><label><input type="radio" name="radio1" value="1" /> Web Browser</label></div>
+          <div class="radio"><label><input type="radio"  name="radio1" value="10" /> Mobile App</label></div>
         </div>
 
 
         <div class="survey">
-          <p>Which Operating System do you prefer?</p>
-          <div class="radio">
-           <label><input type="radio" name="opta">I like them all!</label>
-          </div>
-          <div class="radio">
-           <label><input type="radio" name="optb">Android or Apple iOS</label>
-          </div>
-          <div class="radio disabled">
-           <label><input type="radio" name="optc" disabled>Windows or Mac OS X</label>
-          </div>
+          <h2>Which Operating System do you prefer?</h2>
+          <div class="radio"><label><input type="radio" name="radio2" value="1" />I like them all!</label></div>
+          <div class="radio"><label><input type="radio" name="radio2" value="10" />Android or Apple iOS</label></div>
+          <div class="radio"><label><input type="radio" name="radio2" value="100" />Windows or Mac OS X</label></div>
         </div>
 
 
         <div class="survey">
-          <p>If you were to make an app right now, which would you devlop first?</p>
-          <div class="radio">
-           <label><input type="radio" name="opta">Website</label>
-          </div>
-          <div class="radio">
-           <label><input type="radio" name="optb">Android or Apple iOS</label>
-          </div>
-          <div class="radio disabled">
-           <label><input type="radio" name="optc" disabled>Windows or Mac OS X</label>
-          </div>
+          <h2>If you were to make an app right now, which would you devlop first?</h2>
+          <div class="radio"><label><input type="radio" name="radio3" value="1" />Website</label></div>
+          <div class="radio"><label><input type="radio" name="radio3" value="10" />Android or Apple iOS</label></div>
+          <div class="radio"><label><input type="radio" name="radio3" value="100" />Windows or Mac OS X</label></div>
         </div>
 
         <div class="survey">
-          <p>Does the concept of "write once and run on everything" appeal to you?</p>
-          <div class="radio">
-           <label><input type="radio" name="opta">Whats the point? I mainly use my browser for everything, its the future!</label>
+          <h2>Does the concept of "write once and run on everything" appeal to you?</h2>
+          <div class="radio"><label><input type="radio" name="radio4" value="1"/>Whats the point? I mainly use my browser for everything, its the future!</label></dv>
+          <div class="radio"><label><input type="radio" name="radio4" value="10"/>Yes, I use my phone most of the time and for everything.</label>
           </div>
-          <div class="radio">
-           <label><input type="radio" name="optb">Yes, I use my phone most of the time and for everything.</label>
-          </div>
-          <div class="radio disabled">
-           <label><input type="radio" name="optc" disabled>Yes, I prefer to use my laptop or Desktop for most things.</label>
-          </div>
+          <div class="radio"><label><input type="radio" name="radio4" value="100"/>Yes, I prefer to use my laptop or Desktop for most things.</label></div>
         </div>
 
         <div class="survey">
-          <p>What excites you most about developing?</p>
-          <div class="radio">
-           <label><input type="radio" name="opta">Making a website</label>
-          </div>
-          <div class="radio">
-           <label><input type="radio" name="optb">Making and addictive game</label>
-          </div>
-          <div class="radio disabled">
-           <label><input type="radio" name="optc" disabled>Making the next Fallout or Skyrim game.</label>
-          </div>
+          <h2>What excites you most about developing?</h2>
+          <div class="radio"><label><input type="radio" name="radio5" value="1"/>Making a website</label></dv>
+          <div class="radio"><label><input type="radio" name="radio5" value="10"/>Making and addictive game</label></div>
+          <div class="radio"><label><input type="radio" name="radio5" value="100"/>Making the next Fallout or Skyrim game.</label></div>
         </div>
-    </div>
+
+        <p><input class="survey" type="button" id="results" value="Get Results"></p>
+
+        <p class="survey-results" id="ruby">We suggest you look into the Ruby on Rails or CSS/Design tracks!</p>
+        <p class="survey-results" id="csharp">We suggest you look into the Csharp and DotNet tracks!</p>
+        <p class="survey-results" id=""></p>
+      </div>
   </body>
 </html>
