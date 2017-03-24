@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <title>Epicodus Track Survey</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script type="text/javascript">href="js/jquery.js"</script>
-    <link rel="stylesheet" href="css/styles.css">
-    <script type="text/javascript"> href="js/app.js"</script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="jumbotron"><h1>Epicodus Track Survey</h1></div>
-      <div class="intro">
+      <div id="intro">
         <p>This survey is intended to inform you as a student or prospective student of epicodus what course of study would suite your particular needs as an apiring developer. It should be taken with a grain of salt and used only to teach you about particular apsepcts of each programming language or framework. Enjoy! </p>
-        <button type="button" name="next">Next</button>
+        <button id="intronext" type="button" >Next</button>
+      </div>
+      <div id="intro2" class="survey">
+        <p> All students must complete an Intro to Programming and adventually a Javascript course. The content in each intro course is universal to all developer jobs.Javascript, HTML and CSS are the core of every website and some phone applications.</p>
+        <button type="button">Next</button>
       </div>
 
-      <div class="intro2">
-        <p>All students must complete an Intro to Programming and adventually a Javascript course. The content in each intro course is universal to all developer jobs.Javascript, HTML and CSS are the core of every website and some phone applications.</p>
-        <button type="button" name="next">Next</button>
-      </div>
-
-    <div class="">
-        <p>When using Youtube do you prefer to use the mobile app or your Web browser on a PC or tablet? (Ignore the size and resolution differences)</p>
-        <div class="radio">
-         <label><input type="radio" name="opta">Web Browser</label>
-        </div>
-        <div class="radio">
-         <label><input type="radio" name="optb">Mobile app</label>
-        </div>
+        <div class="survey">
+          <p>When using Youtube do you prefer to use the mobile app or your Web browser on a PC or tablet? (Ignore the size and resolution differences)</p>
+          <div class="radio">
+           <label><input type="radio" name="opta">Web Browser</label>
+          </div>
+          <div class="radio">
+           <label><input type="radio" name="optb">Mobile app</label>
+          </div>
         </div>
 
 
-        <div class="">
+        <div class="survey">
           <p>Which Operating System do you prefer?</p>
           <div class="radio">
            <label><input type="radio" name="opta">I like them all!</label>
@@ -46,7 +44,7 @@
         </div>
 
 
-        <div class="">
+        <div class="survey">
           <p>If you were to make an app right now, which would you devlop first?</p>
           <div class="radio">
            <label><input type="radio" name="opta">Website</label>
@@ -59,7 +57,7 @@
           </div>
         </div>
 
-        <div class="">
+        <div class="survey">
           <p>Does the concept of "write once and run on everything" appeal to you?</p>
           <div class="radio">
            <label><input type="radio" name="opta">Whats the point? I mainly use my browser for everything, its the future!</label>
@@ -72,7 +70,7 @@
           </div>
         </div>
 
-        <div class="">
+        <div class="survey">
           <p>What excites you most about developing?</p>
           <div class="radio">
            <label><input type="radio" name="opta">Making a website</label>
@@ -84,7 +82,6 @@
            <label><input type="radio" name="optc" disabled>Making the next Fallout or Skyrim game.</label>
           </div>
         </div>
-
     </div>
   </body>
 </html>
