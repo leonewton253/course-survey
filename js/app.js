@@ -16,10 +16,17 @@ $(document).ready(function() {
         score+= parseInt($(this).attr("value"));
     });
 
-    alert(score);
+    if (score < 20) {
+      $(".survey").hide();
+      $("#ruby").show();
+    } else if (score > 300) {
+      $(".survey").hide();
+      $("#csharp").show();
+    } else {
+      $(".survey").hide();
+      $("#android").show();
+    }
 
-
-      $("#story").show();
 
       event.preventDefault();
     });
