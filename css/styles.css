@@ -1,3 +1,21 @@
 .survey, #intro2, #ruby, #csharp, #android {
   display: none;
 }
+
+/* Background Gradient for Triadic Colors */
+.container
+{
+    background-color: #B4A0BF;
+    /* For WebKit (Safari, Chrome, etc) */
+    background: #B4A0BF -webkit-gradient(linear, left top, left bottom, from(#E2E5E4), to(#B4A0BF)) no-repeat;
+    /* Mozilla,Firefox/Gecko */
+    background: #B4A0BF -moz-linear-gradient(top, #E2E5E4, #B4A0BF) no-repeat;
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E2E5E4, endColorstr=#B4A0BF) no-repeat;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#E2E5E4, endColorstr=#E2E5E4)" no-repeat;
+}
+
+.img-thumbnail {
+  float: right;
+}
